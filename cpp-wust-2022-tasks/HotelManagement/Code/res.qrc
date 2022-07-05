@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/toolBar">
+        <file>image/employee.png</file>
+        <file>image/employee_press.png</file>
+        <file>image/priceInformation.png</file>
+        <file>image/priceInformation_press.png</file>
+        <file>image/register.png</file>
+        <file>image/register_press.png</file>
+        <file>image/roomQuery.png</file>
+        <file>image/roomQuery_press.png</file>
+    </qresource>
+    <qresource prefix="/calendar">
+        <file>image/left.png</file>
+        <file>image/right.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>image/username.png</file>
+        <file>image/password.png</file>
+        <file>image/hotel.png</file>
+        <file>image/hotelBackground.jpg</file>
+        <file>image/down.png</file>
+        <file>image/avatar.jpg</file>
+        <file>image/one.jpg</file>
+        <file>image/two.jpg</file>
+        <file>image/three.jpg</file>
+        <file>image/four.jpg</file>
+        <file>image/five.jpg</file>
+        <file>image/defaultAvatar.png</file>
+    </qresource>
+</RCC>

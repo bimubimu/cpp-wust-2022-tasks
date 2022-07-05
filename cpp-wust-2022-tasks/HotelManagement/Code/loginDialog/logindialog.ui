@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginDialog</class>
+ <widget class="QMainWindow" name="LoginDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>397</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>397</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>397</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>登录</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../res.qrc">
+    <normaloff>:/image/hotel.png</normaloff>:/image/hotel.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow#LoginDialog{
+	border-image:url(:/image/hotelBackground.jpg);
+}
+
+QLineEdit
+{
+border: 1px solid rgb(230,230,230);
+border-radius: 10px;
+background: rgb(230,230,230);
+selection-background-color: darkgray;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEditPassword">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>170</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>密码</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonLogin">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>240</y>
+      <width>251</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>35</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>35</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft Yahei</family>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    font:20px;
+    color:white;
+    background-color:rgb(14 , 150 , 254);
+    border-radius:15px;
+    height:30px;
+    width:30px;
+}
+
+QPushButton:hover
+{
+    background-color:rgb(44 , 137 , 255);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(14 , 135 , 228);
+    padding-left:3px;
+    padding-top:3px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>登录</string>
+    </property>
+    <property name="shortcut">
+     <string>Return</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditUsername">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>110</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>251</width>
+      <height>31</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>251</width>
+      <height>31</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="placeholderText">
+     <string>用户名</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>lineEditUsername</tabstop>
+  <tabstop>lineEditPassword</tabstop>
+  <tabstop>pushButtonLogin</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
